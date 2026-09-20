@@ -1011,7 +1011,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
     	    .nav-links a:hover { background: var(--light-bg); color: var(--primary); }
 
 		.hero-content { padding: 120px 16px 60px; }
-1013	    .hero-title .line1,
+1	    .hero-title .line1,
 1014	    .hero-title .line2,
 1015	    .hero-title .line3 { font-size: clamp(2rem, 8vw, 3.2rem); }
 1016	    .hero-stats {
