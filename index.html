@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PODDED Togo - Plateforme des Organisations de Défense des Droits des Employés Domestiques</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#accueil" class="logo">
+                <span class="logo-icon">
+                    <i class="fas fa-hands-holding-heart"></i>
+                </span>
+                <div class="logo-text">
+                    <span class="logo-main">PODDED</span>
+                    <span class="logo-sub">Togo</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#missions">Missions</a></li>
+                <li><a href="#activites">Activités</a></li>
+                <li><a href="#plaidoyer">Plaidoyer</a></li>
+                <li><a href="#membres">Membres</a></li>
+                <li><a href="#actualites">Actualités</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-shield-halved"></i>
+                <span>Depuis 2014 au service des travailleurs domestiques</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="line1">Défendre les Droits</span>
+                <span class="line2">des Employés Domestiques</span>
+                <span class="line3 accent">au Togo</span>
+            </h1>
+            <p class="hero-desc">
+                La Plateforme des Organisations de Défense des Droits des Employés Domestiques (PODDED) 
+                est une organisation de la société civile togolaise qui œuvre pour un travail décent, 
+                la protection sociale et la dignité de plus de 500 000 travailleurs domestiques.
+            </p>
+            <div class="hero-actions">
+                <a href="#apropos" class="btn btn-primary">
+                    <span>Découvrir notre mission</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <span>Nous soutenir</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="21">0</div>
+                    <div class="stat-label">Organisations membres</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500000">0</div>
+                    <div class="stat-label">Travailleurs domestiques au Togo</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="10">0</div>
+                    <div class="stat-label">Années d'action</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Régions couvertes</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#apropos">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- À Propos -->
+    <section class="section about" id="apropos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Qui sommes-nous</span>
+                <h2 class="section-title">À Propos de la PODDED</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-main">
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fas fa-building-ngo"></i>
+                        </div>
+                        <h3>Notre Identité</h3>
+                        <p>
+                            La <strong>Plateforme des Organisations de Défense des Droits des Employés Domestiques (PODDED)</strong> 
+                            est une organisation de la société civile togolaise créée en <strong>avril 2014</strong>. 
+                            Elle regroupe <strong>21 organisations membres</strong> — ONG, associations, agences de placement 
+                            et syndicats — toutes engagées dans la défense et la promotion des droits des travailleurs 
+                            domestiques au Togo.
+                        </p>
+                        <p>
+                            La PODDED est née de la nécessité de répondre aux multiples violations des droits 
+                            des travailleurs domestiques, un secteur qui représente environ <strong>9% de la population 
+                            active</strong> des pays en voie de développement selon le Bureau International du Travail (BIT). 
+                            Au Togo, ce sont plus de <strong>500 000 travailleurs domestiques</strong> qui évoluent souvent 
+                            dans des conditions précaires, sans protection juridique adéquate.
+                        </p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Notre Vision</h3>
+                        <p>
+                            La PODDED aspire à un Togo où les travailleurs domestiques jouissent pleinement 
+                            de leurs droits fondamentaux, exercent leur métier dans la dignité et bénéficient 
+                            d'une protection sociale effective. Nous voulons que le travail domestique soit 
+                            reconnu comme un métier à part entière, contribuant essentiellement à l'essor 
+                            de l'économie nationale.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-sidebar">
+                    <div class="info-box">
+                        <h4><i class="fas fa-calendar-alt"></i> Année de création</h4>
+                        <p>Avril 2014</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="fas fa-users"></i> Membres</h4>
+                        <p>21 organisations (ONG, associations, syndicats)</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="fas fa-map-marker-alt"></i> Siège</h4>
+                        <p>Lomé, Togo</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="fas fa-globe-africa"></i> Couverture</h4>
+                        <p>Ensemble du territoire national</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="fas fa-handshake"></i> Partenaire principal</h4>
+                        <p>We Social Movements (WSM)</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="fas fa-user-tie"></i> Président actuel</h4>
+                        <p>Dr Tsolenyanu Komi Agbeko</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="fas fa-user-cog"></i> Coordinateur national</h4>
+                        <p>Apétsi Edmond</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Missions -->
+    <section class="section missions" id="missions">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Nos engagements</span>
+                <h2 class="section-title">Missions & Objectifs</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">La PODDED mène un combat multidimensionnel pour transformer les conditions de vie 
+                et de travail des employés domestiques au Togo.</p>
+            </div>
+            <div class="missions-grid">
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-scale-balanced"></i></div>
+                    <h3>Défense des Droits</h3>
+                    <p>Protéger et promouvoir les droits fondamentaux des travailleurs domestiques : 
+                    droit à un contrat de travail, droit à la rémunération décente (SMIG), 
+                    droit au repos hebdomadaire, droit aux congés payés et droit à la dignité.</p>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-check-circle"></i> Contrat de travail oral ou écrit</li>
+                        <li><i class="fas fa-check-circle"></i> Respect des heures légales de travail</li>
+                        <li><i class="fas fa-check-circle"></i> Paiement du SMIG</li>
+                        <li><i class="fas fa-check-circle"></i> Repos hebdomadaire garanti</li>
+                        <li><i class="fas fa-check-circle"></i> Protection contre les abus et violences</li>
+                    </ul>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-shield-heart"></i></div>
+                    <h3>Protection Sociale</h3>
+                    <p>Garantir l'accès des travailleurs domestiques à la protection sociale : 
+                    affiliation à la CNSS, accès à l'Assurance Maladie Universelle (AMU), 
+                    couverture contre les accidents du travail et les maladies professionnelles.</p>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-check-circle"></i> Inscription à la CNSS</li>
+                        <li><i class="fas fa-check-circle"></i> Accès à l'AMU</li>
+                        <li><i class="fas fa-check-circle"></i> Couverture accidents du travail</li>
+                        <li><i class="fas fa-check-circle"></i> Congés de maternité</li>
+                        <li><i class="fas fa-check-circle"></i> Droits reproductifs et sexuels</li>
+                    </ul>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-megaphone"></i></div>
+                    <h3>Plaidoyer Politique</h3>
+                    <p>Mener des actions de plaidoyer auprès des autorités togolaises et des institutions 
+                    internationales pour la ratification de la Convention 189 de l'OIT et l'adoption 
+                    d'un cadre juridique national protecteur.</p>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-check-circle"></i> Ratification de la Convention 189 OIT</li>
+                        <li><i class="fas fa-check-circle"></i> Validation de l'arrêté ministériel</li>
+                        <li><i class="fas fa-check-circle"></i> Formalisation des contrats de travail</li>
+                        <li><i class="fas fa-check-circle"></i> Collaboration État-PODDED</li>
+                        <li><i class="fas fa-check-circle"></i> Dialogue social constructif</li>
+                    </ul>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-child-reaching"></i></div>
+                    <h3>Protection de l'Enfance</h3>
+                    <p>Lutter contre le travail domestique des enfants et œuvrer pour leur retour 
+                    à l'école ou dans des centres d'apprentissage. Sensibiliser les employeurs 
+                    sur les droits des enfants travailleurs domestiques.</p>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-check-circle"></i> Retour des enfants à l'école</li>
+                        <li><i class="fas fa-check-circle"></i> Centres d'apprentissage</li>
+                        <li><i class="fas fa-check-circle"></i> Lutte contre l'exploitation</li>
+                        <li><i class="fas fa-check-circle"></i> Sensibilisation des employeurs</li>
+                        <li><i class="fas fa-check-circle"></i> Accès à la vaccination</li>
+                    </ul>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Formation & Autonomisation</h3>
+                    <p>Renforcer les capacités des travailleurs domestiques par des formations 
+                    sur leurs droits, devoirs, la culture syndicale, l'entrepreneuriat 
+                    et les activités génératrices de revenus (AGR).</p>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-check-circle"></i> Formations sur les droits et devoirs</li>
+                        <li><i class="fas fa-check-circle"></i> Ateliers d'entrepreneuriat</li>
+                        <li><i class="fas fa-check-circle"></i> Montage de projets AGR</li>
+                        <li><i class="fas fa-check-circle"></i> Culture syndicale</li>
+                        <li><i class="fas fa-check-circle"></i> Assistance juridique</li>
+                    </ul>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-people-group"></i></div>
+                    <h3>Organisation & Solidarité</h3>
+                    <p>Organiser les travailleurs domestiques en groupes structurés, 
+                    faciliter leur adhésion aux syndicats, et créer un réseau de solidarité 
+                    pour une défense collective efficace de leurs intérêts.</p>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-check-circle"></i> Groupes communautaires</li>
+                        <li><i class="fas fa-check-circle"></i> Adhésion syndicale</li>
+                        <li><i class="fas fa-check-circle"></i> Réseau de solidarité</li>
+                        <li><i class="fas fa-check-circle"></i> Points focaux régionaux</li>
+                        <li><i class="fas fa-check-circle"></i> Partage d'expériences</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activités -->
+    <section class="section activities" id="activites">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sur le terrain</span>
+                <h2 class="section-title">Nos Activités</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">Découvrez les actions concrètes que la PODDED mène sur l'ensemble du territoire togolais.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Région des Savanes – Dapaong</span>
+                        <h3>Sensibilisation sur les droits et devoirs</h3>
+                        <p>En juin 2024, la PODDED a organisé un atelier de deux jours à Dapaong en collaboration avec l'Inspection du Travail et l'AREEDE, formant une trentaine de travailleurs domestiques sur leurs droits (contrat de travail, heures légales, SMIG, repos hebdomadaire, protection sociale, congés de maternité) et sur la protection de l'environnement.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Sensibilisation</span>
+                            <span class="tag">Formation</span>
+                            <span class="tag">Savanes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Lomé – Octobre 2024</span>
+                        <h3>Conférence de presse pour les droits des domestiques</h3>
+                        <p>La PODDED a tenu une conférence de presse à Lomé pour exhorter les fonctionnaires internationaux, expatriés et autres personnalités à faciliter l'accès au travail décent pour les travailleurs domestiques. Le président Dr Tsolenyanu Komi Agbeko a dénoncé les violations spécifiques récurrentes : dévalorisation du travail, difficultés d'adhésion syndicale, absence de cadre juridique, non-respect de la protection sociale.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Plaidoyer</span>
+                            <span class="tag">Médias</span>
+                            <span class="tag">Lomé</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Région Centrale – Sokodé, Mai 2025</span>
+                        <h3>
