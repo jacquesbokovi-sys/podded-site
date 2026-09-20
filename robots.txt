@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dapper-twilight-782970.netlify.app/sitemap.xml
